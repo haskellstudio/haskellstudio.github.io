@@ -5,15 +5,15 @@ tags:
 ---
 
 
-## Install msys2
+## 1,Install msys2
 
 
-## Install visual studio 2015 and launch vs2015 x64 native tools command prompt, from this terminal, run 
+## 2,Install visual studio 2015 and launch "vs2015 x64 native tools command prompt", from this terminal, run 
 ``` bash
 c:\msys64\msys2_shell.bat
 ```
 
-## Install gcc and git
+## 3,Install gcc and git
 
 run 
 ``` bash
@@ -21,12 +21,12 @@ pacman -S gcc base-devel
 pacman -S git
 ```
 
-
-
-### Hello world 
+## 4,configure and make
 
 ``` bash
-main :: IO ()
-main = do
-  putStrLn "Hello world"
+ ./configure -m=i3nt
+make
 ```
+
+
+## 5,In  ChezScheme\i3nt\bin\i3nt\ dir, you should see petite.exe and scheme.exe.
