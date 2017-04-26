@@ -8,7 +8,7 @@ tags:
 ## 1, Install msys2
 
 
-## 2, Install visual studio 2015 and launch "vs2015 x64 native tools command prompt", from this terminal, and run: 
+## 2, Install visual studio 2015 and launch "vs2015 x64 native tools command prompt", and run follow command from this terminal: 
 ``` bash
 c:\msys64\msys2_shell.bat
 ```
